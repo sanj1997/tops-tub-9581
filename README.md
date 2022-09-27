@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # My Glamm-Clone
 
@@ -32,5 +32,3 @@ This is a collaborative project built by a team of 3 members. MyGlamm is an onli
 ![App Screenshot](/images/Screenshot%20(211).png)
 ![App Screenshot](/images/Screenshot%20(213).png)
 ![App Screenshot](/images/Screenshot%20(215).png)
-
-=======
