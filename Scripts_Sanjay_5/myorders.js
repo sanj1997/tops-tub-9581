@@ -105,6 +105,7 @@ let displayLive=()=>{
     else
     {
         let container=document.getElementById("details_2")
+        container.innerHTML=""
         container.setAttribute("class","latest")
         live.forEach((el)=>{
             let card=document.createElement("div")

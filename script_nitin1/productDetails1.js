@@ -103,12 +103,12 @@ document.getElementById("footer").innerHTML=footer()
 displayUserName()
 let dataFromLs = JSON.parse(localStorage.getItem("userDetails"))||[];
 document.getElementById("cart").addEventListener("click",()=>{
-    if(dataFromLs.length==0)
-    {
-        alert("Please login!!")
-    }
-    else{
+    // if(dataFromLs.length==0)
+    // {
+    //     alert("Please login!!")
+    // }
+    // else{
         window.location.href="./Rupesh_cart_day5/cart5.html"
-    }
+    // }
     
  })

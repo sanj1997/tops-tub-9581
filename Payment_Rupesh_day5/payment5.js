@@ -1,6 +1,6 @@
 
 let arr = JSON.parse(localStorage.getItem("data")) || [];
-
+let empty=[]
 let grandTotal = JSON.parse(localStorage.getItem("grandTotal"))
 let findalAmount = document.querySelector(".findalAmount")
 findalAmount.innerText =  `₹${grandTotal}.00`
@@ -17,8 +17,8 @@ payMoney.addEventListener("click",function(){
    if( inputNumber.length==19 &&inputName!="" && month>0 && month<=12 && year >=22){
      alert("Order Placed successfully")
      localStorage.setItem("completedOrders",JSON.stringify(arr))
-     localStorage.setItem("liveOrders",JSON.stringify([]))
-     window.location.href = "../index_Sanjay-5.html"
+     localStorage.setItem("liveOrders",JSON.stringify(empty))
+     window.location.href = "../index.html"
    }
    else
    {
